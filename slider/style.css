@@ -1,0 +1,22 @@
+:root{
+    --degree : 0deg;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    padding: 20px;
+}
+
+#pieChart{
+    position:absolute;
+    top:60px;
+    left:60px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-image: conic-gradient(green var(--degree), white 0deg);
+}
